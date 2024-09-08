@@ -20,5 +20,4 @@ jobs:
       needs: [run-shell-commands,parallel-job-macos] 
       steps: 
         - name: echo a string
-          run: Write-Output "Windows String"
-          
+          run: Write-Output "Windows Stringss"
